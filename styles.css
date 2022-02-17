@@ -1,6 +1,30 @@
 nav {
-    background-color: blanchedalmond;
-    height: 100px;
+    background-color: #ffebcd;
+    height: 7rem;
+    max-height: 100px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.7rem;
+}
+
+h1 {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h2 {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h3 {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+p {
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 .jumbotron {
@@ -14,14 +38,43 @@ nav {
     background-color: rgba(255, 255, 255,.7);
     padding: 50px;
 }
-
+/* 
+@media (max-width: 576px) {
 .jumbotron-row {
-    height: 50vh;
+    height: 100vh;
 }
+}
+
+@media (max-width: 768px) {
+.jumbotron-row {
+    height: 100vh;
+}
+}
+
+@media (max-width: 991.98px) {
+    .jumbotron-row {
+    height: 60vh;
+}
+}
+
+@media (min-width: 991.99px) {
+    .jumbotron-row {
+    height: 60vh;
+}
+} */
+
 
 .footer-row {
     display: flex;
     text-align: center;
     height: 15vh;
     background-color: palevioletred;
+}
+
+.fa {
+    font-size: 2rem;
+}
+
+.copyright {
+    font-size: 1rem;
 }
